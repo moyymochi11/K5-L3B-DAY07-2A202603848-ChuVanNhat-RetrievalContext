@@ -1,0 +1,1068 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What is the total area of VinUniversity campus?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 5,
+        "evidence": "The campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares."
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p5_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 5,
+        "text": "The campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3",
+        "metadata": {
+          "section": "campus_overview",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.29505513021740654,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.16724653875027376,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p41_para_2",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 41,
+        "text": "Beyond the freshman convocation, the formal graduation ceremony stands as a momentous occasion, honoring the incredible accomplishments of graduating seniors. Another must-attend event is Open Day, where every club at VinUniversity sets up vibrant stalls, transforming the campus into a lively showcase of diversity, passion, and creativity. This is the perfect opportunity for students to explore their interests, meet like-minded peers, and get a true feel for the dynamic spirit of VinUni.",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.12649781486311423,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p5_para_0 | vinuni_handbook.pdf | page 5]\nThe campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3",
+    "context_ids": [
+      "vinuni-handbook-2024_p5_para_0"
+    ],
+    "context_chars": 427,
+    "elapsed_ms": 0.3781999998864194,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Who is the contact person for international student administration at VinUniversity?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 6,
+        "evidence": "Dao Thuc Hanh (hanh.dt@vinuni.edu.vn) Administration International Students"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p26_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 26,
+        "text": "STUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.18658703196206228,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p15_para_2",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 15,
+        "text": "Whether you’re alone or you’re accompanied by your guardian or a fellow student, you can contact the VinUniversity admissions office and they can arrange a pickup service for you. VinUniversity offers a complimentary airport pickup service for newly admitted students arriving at Noi Bai International Airport in Hanoi. This service is designed to ensure a smooth transition for students to the VinUniversity campus. Students should coordinate with the Admissions Office to schedule their pickup.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.16965599793410274,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p38_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 38,
+        "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.14925555988939473,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p26_para_0 | vinuni_handbook.pdf | page 26]\nSTUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+    "context_ids": [
+      "vinuni-handbook-2024_p26_para_0"
+    ],
+    "context_chars": 406,
+    "elapsed_ms": 0.2722999997786246,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "What months make up Spring season in Hanoi according to the handbook?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 10,
+        "evidence": "Spring (February - April) This is widely considered the most pleasant season in Hanoi."
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p3_para_2",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 3,
+        "text": "This handbook is designed to provide you with the information you need to know to make the most of your time at VinUniversity. We encourage you to read it carefully and refer to it often. WELCOME TO VINUNIVERSITY 1",
+        "metadata": {
+          "section": "campus_overview",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.1897891471884673,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p10_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 10,
+        "text": "4 SEASONS IN HANOI Spring (February - April) This is widely considered the most pleasant season in Hanoi. Expect comfortable temperatures ranging from 23°C to 28°C with low humidity and occasional light drizzles. It's a perfect time for sightseeing and exploring the city's outdoor activities. Winter (December - January) Temperatures can drop as low as 6°C with dryness. We suggest you wear warm clothes and apply moisturizer, such as lotion and lip balm.",
+        "metadata": {
+          "section": "pre_arrival",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.1535789445598333,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.14054553543604834,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p3_para_2 | vinuni_handbook.pdf | page 3]\nThis handbook is designed to provide you with the information you need to know to make the most of your time at VinUniversity. We encourage you to read it carefully and refer to it often. WELCOME TO VINUNIVERSITY 1\n\n[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+    "context_ids": [
+      "vinuni-handbook-2024_p3_para_2",
+      "vinuni-handbook-2024_p12_para_0"
+    ],
+    "context_chars": 711,
+    "elapsed_ms": 0.2642999997988227,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How much does the Viettel ST70K data package cost and what does it offer?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 16,
+        "evidence": "Viettel ST70K Package: Data: 500 MB per day (15 GB per month) Price: 70,000 VND Validity: 30 days"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p16_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 16,
+        "text": "Viettel ST70K Package: Data: 500 MB per day (15 GB per month) Price: 70,000 VND Validity: 30 days ST90K Package: Data: 1 GB per day (30 GB per month) Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"ST70K\" or \"ST90K\" to 191. Via USSD: Dial *098# and follow the prompts. Vinaphone MAX100 Package: Data: 1.2 GB Price: 100,000 VND Validity: 30 days MAX200 Package: Data: 3 GB Price: 200,000 VND Validity: 30 days Registration: Via SMS: Text \"DK MAX100\" or \"DK MAX200\" to 888.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.21914774449335042,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p16_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 16,
+        "text": "Note: Ensure your SIM is registered; registration requires a passport. Mobifone HD70 Package: Data: 3.8 GB Price: 70,000 VND Validity: 30 days HD90 Package: Data: 5.5 GB Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"DK HD70\" or \"DK HD90\" to 999. Note: Ensure your SIM is registered; registration requires a passport GETTING A SIM CARD & SETTING UP INTERNET SERVICE Listed below are some of the options you can choose for your SIM cards.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.10969654056047794,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p49_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 49,
+        "text": "At VinUniversity, you can freely access the medical clinic and the psychological counseling service for primary care. However, since the Social Insurance program in Vietnam does not cover foreign national, you will need to purchase your own health insurance plan from private companies for other health care services. At VinUni, the medical clinic can support in provide more information and advise on your health insurance plan.",
+        "metadata": {
+          "section": "health_and_insurance",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.10314529179540591,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p16_para_0 | vinuni_handbook.pdf | page 16]\nViettel ST70K Package: Data: 500 MB per day (15 GB per month) Price: 70,000 VND Validity: 30 days ST90K Package: Data: 1 GB per day (30 GB per month) Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"ST70K\" or \"ST90K\" to 191. Via USSD: Dial *098# and follow the prompts. Vinaphone MAX100 Package: Data: 1.2 GB Price: 100,000 VND Validity: 30 days MAX200 Package: Data: 3 GB Price: 200,000 VND Validity: 30 days Registration: Via SMS: Text \"DK MAX100\" or \"DK MAX200\" to 888.",
+    "context_ids": [
+      "vinuni-handbook-2024_p16_para_0"
+    ],
+    "context_chars": 554,
+    "elapsed_ms": 0.25430000005144393,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Why does VinUniversity provide on-campus accommodation for all students?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 21,
+        "evidence": "VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p21_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 21,
+        "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.2500806585821037,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p49_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 49,
+        "text": "At VinUniversity, you can freely access the medical clinic and the psychological counseling service for primary care. However, since the Social Insurance program in Vietnam does not cover foreign national, you will need to purchase your own health insurance plan from private companies for other health care services. At VinUni, the medical clinic can support in provide more information and advise on your health insurance plan.",
+        "metadata": {
+          "section": "health_and_insurance",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.15645232323663436,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p23_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 23,
+        "text": "OFF-CAMPUS HOUSING Beyond the first-year dorms, VinUni supports off-campus accommodation at Vinhomes Ocean Park, just a short walk away. Options include: Studios 1-bedroom, 2-bedroom, and 3-bedroom apartments Exchange students can also rent apartments within walking distance in the Vinhomes Apartment Buildings. 21",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.14067234315957444,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p21_para_0 | vinuni_handbook.pdf | page 21]\nDORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+    "context_ids": [
+      "vinuni-handbook-2024_p21_para_0"
+    ],
+    "context_chars": 555,
+    "elapsed_ms": 0.21470000001500011,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "What are the two food courts located on the VinUniversity campus?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 24,
+        "evidence": "Our campus features two amazing food courts: Foodology The Little Kitchen"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p24_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 24,
+        "text": "DINING OPTIONS Our campus features two amazing food courts: Foodology The Little Kitchen These dedicated spaces provide a wide array of delicious and affordable meal options, exclusively available to VinUni students, faculty, and staff. Fresh Garden – Quick breakfast to go Running late for class? Grab a quick and delicious breakfast from Fresh Garden bakery! You can enjoy a freshly made bánh mì and coffee from Highlands Coffee or a hot dumpling from the nearby convenience store.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.16409792952308308,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.15784832595884493,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p5_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 5,
+        "text": "The campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3",
+        "metadata": {
+          "section": "campus_overview",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.15293344737852937,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p24_para_0 | vinuni_handbook.pdf | page 24]\nDINING OPTIONS Our campus features two amazing food courts: Foodology The Little Kitchen These dedicated spaces provide a wide array of delicious and affordable meal options, exclusively available to VinUni students, faculty, and staff. Fresh Garden – Quick breakfast to go Running late for class? Grab a quick and delicious breakfast from Fresh Garden bakery! You can enjoy a freshly made bánh mì and coffee from Highlands Coffee or a hot dumpling from the nearby convenience store.",
+    "context_ids": [
+      "vinuni-handbook-2024_p24_para_0"
+    ],
+    "context_chars": 549,
+    "elapsed_ms": 0.24329999996552942,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "What is the estimated monthly housing expense for students?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 28,
+        "evidence": "Housing ~ 3.500.000 per month"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.13941905790701875,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p21_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 21,
+        "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.13353070185580626,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p15_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 15,
+        "text": "The time can vary depending on the time of day, mode of transport, and the amount of traffic. Approximate costs: Depending on the time of the day and the type of vehicle you take, listed below are the estimated or approximate costs of the mode of transport from Noi Bai airport to VinUniversity. These prices can still vary based on different factors: Available airport pickup services for new students Unsure of where to find the right vehicle and how to come to VinUniversity?",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.10372592595371558,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+    "context_ids": [
+      "vinuni-handbook-2024_p12_para_0"
+    ],
+    "context_chars": 431,
+    "elapsed_ms": 0.24080000002868474,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What type of academic system does VinUniversity follow?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 32,
+        "evidence": "VinUniversity follows a semester-based system with clear term start and end dates."
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.1348199214617793,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p32_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 32,
+        "text": "VinUniversity follows a semester-based system with clear term start and end dates. Credit Requirements Each program has a specified number of credits required for graduation. Students should review their degree plans with academic advisors to ensure timely completion. Graduation Review Process Students must submit a graduation application and ensure all academic requirements are met. Required documents include: Completed degree audit. Clearance forms from university departments.",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.12396824507512429,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p31_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 31,
+        "text": "ACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.11582079798227725,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+    "context_ids": [
+      "vinuni-handbook-2024_p12_para_0"
+    ],
+    "context_chars": 431,
+    "elapsed_ms": 0.22829999988971394,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What is the minimum overall IELTS band score required for English proficiency?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 33,
+        "evidence": "Minimum overall band score of 6.5, with no section below 6.0"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p33_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 33,
+        "text": "Accepted tests: C1 Advanced (formerly known as CAE) or C2 Proficiency (formerly known as CPE) IELTS Academic TOEFL iBT Pearson Test of English (PTE Academic) Cambridge English Qualifications (using the Cambridge English Scale) Vietnamese Standardized Test of English Proficiency (VSTEP) VinUniversity English Placement Test Minimum overall band score of 6.5, with no section below 6.0 Minimu m score of 79 An overall score of 56 with no communicati ve skills scores less than 46 An overall score of 176 with no skill below 169 in any Component Result is equivalent to VSTEP Level 5 C1 level An overall result of “Meets direct entry English requirements.” ENGLISH PROFICIENCY REQUIREMENT Since English is the primary language of instruction at VinUniversity, all admitted students must be able to communicate effectively.",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.4653145496443763,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p34_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 34,
+        "text": "Additional Support ENGLISH PROFICIENCY REQUIREMENT Exemptions from English Proficiency Tests Students may be exempted from the English proficiency requirement if they: Completed high school education in an English-speaking country. Completed an International Baccalaureate (IB) Diploma or A- Level curriculum with English as the primary language of instruction. Have other equivalent qualifications approved by the university.",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.24364052986334375,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p33_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 33,
+        "text": "VinUniversity will support candidates recommended for admission who do not meet the minimum language requirements (see conditional admission) in enhancing their English proficiency. English Language Requirements For Undergraduate Admissions: Students must meet one of the following minimum requirements: 31",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.2345845457028643,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p34_para_1 | vinuni_handbook.pdf | page 34]\nAdditional Support ENGLISH PROFICIENCY REQUIREMENT Exemptions from English Proficiency Tests Students may be exempted from the English proficiency requirement if they: Completed high school education in an English-speaking country. Completed an International Baccalaureate (IB) Diploma or A- Level curriculum with English as the primary language of instruction. Have other equivalent qualifications approved by the university.",
+    "context_ids": [
+      "vinuni-handbook-2024_p34_para_1"
+    ],
+    "context_chars": 492,
+    "elapsed_ms": 0.26559999969322234,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "What Learning Management System (LMS) is used by VinUniversity students to access course materials?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 35,
+        "evidence": "Go to the Canvas website: 2. Enter your VinUniversity credentials:"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p35_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 35,
+        "text": "GUIDE TO USING THE UINIVERSITY LMS AND SIS PLATFORM Accessing Course Materials on Canvas (LMS) VinUniversity uses Canvas as its Learning Management System (LMS). Students can access course materials, submit assignments, view grades, and communicate with professors through this platform. Step-by-Step Guide to Logging into Canvas Library Resources & Borrowing Books The VinUniversity library provides both physical and digital resources for students.",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.4255551175187184,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p31_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 31,
+        "text": "ACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+        "metadata": {
+          "section": "academic_support",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.20160630092288778,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.1384965843759749,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p35_para_1 | vinuni_handbook.pdf | page 35]\nGUIDE TO USING THE UINIVERSITY LMS AND SIS PLATFORM Accessing Course Materials on Canvas (LMS) VinUniversity uses Canvas as its Learning Management System (LMS). Students can access course materials, submit assignments, view grades, and communicate with professors through this platform. Step-by-Step Guide to Logging into Canvas Library Resources & Borrowing Books The VinUniversity library provides both physical and digital resources for students.",
+    "context_ids": [
+      "vinuni-handbook-2024_p35_para_1"
+    ],
+    "context_chars": 516,
+    "elapsed_ms": 0.29069999982311856,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "What is the student-led organization representing international students at VinUniversity?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 38,
+        "evidence": "The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p38_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 38,
+        "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.29385395163339917,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p26_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 26,
+        "text": "STUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.2472369358057207,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.20420786776793318,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+    "context_ids": [
+      "vinuni-handbook-2024_p38_para_0"
+    ],
+    "context_chars": 548,
+    "elapsed_ms": 0.2822999999807507,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "What is the annual sports tournament hosted at VinUni where colleges compete against each other?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 42,
+        "evidence": "Green Sports Day is an annual sports competition in VinUni. During this thrilling competition, each college forms its own"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p42_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 42,
+        "text": "Green Sports Day is an annual sports competition in VinUni. During this thrilling competition, each college forms its own team to battle it out in a series of intense sports and e-sports events, where students showcase their athletic skills, strategic thinking, and teamwork. With the entire VinUniversity community watching, this is your chance to prove your prowess, represent your college, and experience the spirit of competition like never before!",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.2948449485202846,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.12806506001653042,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p40_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 40,
+        "text": "Becoming a member of these clubs is a great way to expand your knowledge, develop new skills, strengthen leadership abilities, and connect with like-minded peer ARTS AND CULTURE VINISTA (VinUni Arts and Fashion Club VINVIVID VINUNIHARMONY VIN-A-HOUSE VINCLASSICS SPORTS VINUNI GOLF CLUB VINUNI ULTIMATE CLUB VINUNI SWIMMING CLUB VINUNI KENDO CLUB VINUNI VOLLEYBALL CLUB ACADEMICS VINTELLIGENCE VINNOVATION YOUTH HOSPITALITY ASSOCIATION VINUNI RESEARCH CLUB VINMAGAZINE LEADERSHIP AND COMMUNITY SERVICE STUDENT COUNCIL HO CHI MINH COMMUNIST YOUTH UNION VINUNITY VINHEALS VINUNITY 38",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.10477359607373832,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p42_para_0 | vinuni_handbook.pdf | page 42]\nGreen Sports Day is an annual sports competition in VinUni. During this thrilling competition, each college forms its own team to battle it out in a series of intense sports and e-sports events, where students showcase their athletic skills, strategic thinking, and teamwork. With the entire VinUniversity community watching, this is your chance to prove your prowess, represent your college, and experience the spirit of competition like never before!",
+    "context_ids": [
+      "vinuni-handbook-2024_p42_para_0"
+    ],
+    "context_chars": 518,
+    "elapsed_ms": 0.32000000010157237,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Which instant messaging application is widely used for communication in Vietnam according to the guide?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 43,
+        "evidence": "In Vietnam, the go-to messaging app is Zalo, a Vietnamese instant messaging platform"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p43_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 43,
+        "text": "COMMUNICATION APPS & STAYING CONNECTED In Vietnam, the go-to messaging app is Zalo, a Vietnamese instant messaging platform developed by VNG Corporation, widely used for both personal and professional communication. Messenger is also a popular choice for staying in touch with locals. For social interactions, Instagram and Facebook are great platforms to connect with peers and stay updated on campus life.",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.44533168545667123,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p43_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 43,
+        "text": "However, while WhatsApp is rarely used among locals, it remains a bridge among international students, especially those still getting familiar with Vietnam’s preferred communication apps. For formal collaboration on group assignments and projects, Microsoft Teams is the go-to platform. Its versatile features, including video calls, file sharing, and real-time document collaboration, make it an essential tool for efficient teamwork and seamless communication among students. 41",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.1778240684447986,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p17_para_2",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 17,
+        "text": "Steps in opening a bank account Visit the local bank you chose to open your account with Most of the banks around Hanoi and Oceanpark have staffs that can speak english so you won’t have to worry about the possible language barrier Gather the required documents Make sure to gather all the required documents above to ensure a smooth process when opening your account Complete the application forms Fill out the designated application forms that the bank teller will give you.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.12521599241364362,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p43_para_0 | vinuni_handbook.pdf | page 43]\nCOMMUNICATION APPS & STAYING CONNECTED In Vietnam, the go-to messaging app is Zalo, a Vietnamese instant messaging platform developed by VNG Corporation, widely used for both personal and professional communication. Messenger is also a popular choice for staying in touch with locals. For social interactions, Instagram and Facebook are great platforms to connect with peers and stay updated on campus life.",
+    "context_ids": [
+      "vinuni-handbook-2024_p43_para_0"
+    ],
+    "context_chars": 473,
+    "elapsed_ms": 0.36880000016026315,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How far is Bat Trang Pottery Village from VinUniversity campus?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 46,
+        "evidence": "Bat Trang Pottery Village Distance from VinUniversity: 15 minutes"
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p46_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 46,
+        "text": "TRADITIONAL VILLAGES & LOCAL CRAFTS Bat Trang Pottery Village Distance from VinUniversity: 15 minutes Known for its centuries-old ceramic craftsmanship, Bat Trang Village offers a hands-on experience where visitors can try their hand at pottery-making and learn about the cultural significance of ceramics in Vietnam. Duong Lam Ancient Village Distance from VinUniversity: 60 minutes This 1,200-year-old village is home to houses dating back up to 400 years!",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.5295304419222088,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p47_para_3",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 47,
+        "text": "Take a Bus to Bat Trang Pottery Village (~15,000 VND for a local bus ride) MUST TRY DISHES IN VIETNAM Egg Coffee at Giang Cafe (39 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Bun Cha at Obuncha (46 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Trang Tien Ice Cream (35 Trang Tien Street, Hoan Kiem District, Hanoi) Pho Thin Bo Ho (61 Dinh Tien Hoang Street, Hoan Kiem District, Hanoi) Cha Ca La Vong (14 Cha Ca, Hang Bo Street, Hoan Kiem District, Hanoi) Banh Mi at Ba Mi Sot (S212, Vinhomes oceanpark, Gia Lam District, Hanoi) 45",
+        "metadata": {
+          "section": "social_integration",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.17084736127524788,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p49_para_2",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 49,
+        "text": "Medical clinic Location: Room I119 (easily accessible within the campus) Email: clinic@vinuni.edu.vn Phone: (+84) 866 200 019 Mental health counseling Location: Room I118 (easily accessible within the campus) Email: bewell@vinuni.edu.vn Phone: (+84) 868 900 016 How to book a counselling service On Campus Service Health Insurance 47",
+        "metadata": {
+          "section": "health_and_insurance",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.11867933153745874,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p46_para_0 | vinuni_handbook.pdf | page 46]\nTRADITIONAL VILLAGES & LOCAL CRAFTS Bat Trang Pottery Village Distance from VinUniversity: 15 minutes Known for its centuries-old ceramic craftsmanship, Bat Trang Village offers a hands-on experience where visitors can try their hand at pottery-making and learn about the cultural significance of ceramics in Vietnam. Duong Lam Ancient Village Distance from VinUniversity: 60 minutes This 1,200-year-old village is home to houses dating back up to 400 years!",
+    "context_ids": [
+      "vinuni-handbook-2024_p46_para_0"
+    ],
+    "context_chars": 524,
+    "elapsed_ms": 0.23819999978513806,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Who established VinUniversity and what is its non-profit status?",
+    "strategy": "Baseline (TF-IDF)",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 3,
+        "evidence": "VinUniversity is a private, not-for-profit university established by Vingroup – the largest private conglomerate in Vietnam."
+      }
+    ],
+    "results": [
+      {
+        "id": "vinuni-handbook-2024_p3_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 3,
+        "text": "VinUniversity is a private, not-for-profit university established by Vingroup – the largest private conglomerate in Vietnam. We offer a variety of undergraduate and graduate programs in a wide range of disciplines, all taught in English by world- class faculty. Our students come from all over the world, creating a diverse and vibrant learning environment.",
+        "metadata": {
+          "section": "campus_overview",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.17956184900198646,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "vinuni-handbook-2024_p12_para_0",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 12,
+        "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "metadata": {
+          "section": "arrival_settling_in",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.13413345168225554,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "vinuni-handbook-2024_p51_para_1",
+        "source_id": "vinuni-handbook-2024",
+        "source": "vinuni_handbook.pdf",
+        "page": 51,
+        "text": "Overdue visas All internat ional students are responsible for maintaining a valid visa status during their stay in Vietnam. The student must monitor visa expiration dates and ensure timely renewals or extensions. In the event of an expired visa, students are expected to follow university guidance, comply with Vietnamese immigration regulations, and bear any associated penalty fees.",
+        "metadata": {
+          "section": "legal_and_emergency",
+          "year": 2024,
+          "language": "en"
+        },
+        "score": 0.08523434418879677,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[vinuni-handbook-2024_p3_para_0 | vinuni_handbook.pdf | page 3]\nVinUniversity is a private, not-for-profit university established by Vingroup – the largest private conglomerate in Vietnam. We offer a variety of undergraduate and graduate programs in a wide range of disciplines, all taught in English by world- class faculty. Our students come from all over the world, creating a diverse and vibrant learning environment.",
+    "context_ids": [
+      "vinuni-handbook-2024_p3_para_0"
+    ],
+    "context_chars": 421,
+    "elapsed_ms": 0.22010000020600273,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

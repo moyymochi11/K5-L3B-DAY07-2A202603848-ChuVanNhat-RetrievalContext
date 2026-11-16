@@ -1,0 +1,50 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Agent abstained on answerable question."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Agent abstained on answerable question."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'No, Social Insurance does not cover foreign nationals so they must buy private health insurance'. Supporting citations: ['vinuni-handbook-2024_p49_para_0']."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'connect-sam@vinuni.edu.vn'. Supporting citations: ['vinuni-handbook-2024_p51_para_0']."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Passport & Student Visa Letter, University Admission Letter & Official Documents'. Supporting citations: ['vinuni-handbook-2024_p8_para_0']."
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Agent correctly abstained. Reason: Handbook mentions airport arrivals, baggage and visas, but does not contain any airline partnership or flight discount vouchers from Frankfurt."
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Agent correctly abstained. Reason: Handbook mentions Cornell collaboration and general course registration timelines, but contains no 2025 exchange application deadline for Cornell."
+  }
+]

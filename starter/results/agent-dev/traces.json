@@ -1,0 +1,1340 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What is the total area of VinUniversity campus?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The total area of VinUniversity campus is 420 hectares [vinuni-handbook-2024_p5_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p5_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the total area of VinUniversity campus?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p5_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 5,
+            "text": "The campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3",
+            "metadata": {
+              "section": "campus_overview",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.029211087420042643,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p49_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 49,
+            "text": "Medical clinic Location: Room I119 (easily accessible within the campus) Email: clinic@vinuni.edu.vn Phone: (+84) 866 200 019 Mental health counseling Location: Room I118 (easily accessible within the campus) Email: bewell@vinuni.edu.vn Phone: (+84) 868 900 016 How to book a counselling service On Campus Service Health Insurance 47",
+            "metadata": {
+              "section": "health_and_insurance",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.028814262023217248,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p5_para_0 | vinuni_handbook.pdf | page 5]\nThe campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3\n\n[vinuni-handbook-2024_p21_para_0 | vinuni_handbook.pdf | page 21]\nDORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.\n\n[vinuni-handbook-2024_p49_para_2 | vinuni_handbook.pdf | page 49]\nMedical clinic Location: Room I119 (easily accessible within the campus) Email: clinic@vinuni.edu.vn Phone: (+84) 866 200 019 Mental health counseling Location: Room I118 (easily accessible within the campus) Email: bewell@vinuni.edu.vn Phone: (+84) 868 900 016 How to book a counselling service On Campus Service Health Insurance 47",
+        "context_ids": [
+          "vinuni-handbook-2024_p5_para_0",
+          "vinuni-handbook-2024_p21_para_0",
+          "vinuni-handbook-2024_p49_para_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 10985.16
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Who is the contact person for international student administration at VinUniversity?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Who is the contact person for international student administration at VinUniversity?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p38_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 38,
+            "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p51_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Visa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a ‘DH’ notation on the top right of the page. 1.",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03076923076923077,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p26_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 26,
+            "text": "STUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.030621785881252923,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.\n\n[vinuni-handbook-2024_p51_para_0 | vinuni_handbook.pdf | page 51]\nVisa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a ‘DH’ notation on the top right of the page. 1.",
+        "context_ids": [
+          "vinuni-handbook-2024_p38_para_0",
+          "vinuni-handbook-2024_p51_para_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "contact person for international student administration",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p4_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 4,
+            "text": "Table of Contents 18 3Campus Overview 5Pre-Arrival Information 36Social Integration & Extra Curricular Activities 47Health Care, Mental Health & Insurance9Arrival and Settling In International Student Life VinUniversity 27Academic Support & University Resources Legal and emergency contact 49 2",
+            "metadata": {
+              "section": "campus_overview",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p51_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Visa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a ‘DH’ notation on the top right of the page. 1.",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p6_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 6,
+            "text": "Dao Thuc Hanh (hanh.dt@vinuni.edu.vn) Administration International Students Le Bao Anh (anh.lb@vinuni.edu.vn) Dormitory Manager International Students Digital Platform Pham Thu Nga (nga.pt@vinuni.edu.vn) Student Council Young Change Maker Program OASIS Program MEET THE STAFF OF STUDENT AFFAIRS MANAGEMENT Pham Hong Hanh (Miley) (hanh.ph@vinuni.edu.vn) Head of S.A.M Nguyen Thi Thanh Tu (tu.ntt@vinuni.edu.vn) Student Club Work Study Program Ngo Van Dung (dung.nv@vinuni.edu.vn) Wellbeing Counselor Le Thanh Tung (tung.lt2@vinuni.edu.vn) Dormitory Manager Sports Complex Manager Code of Conduct Nguyen Thuy Linh (linh.nt3@vinuni.edu.vn) Student Services Manager Merchandise Store4",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.\n\n[vinuni-handbook-2024_p51_para_0 | vinuni_handbook.pdf | page 51]\nVisa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a ‘DH’ notation on the top right of the page. 1.\n\n[vinuni-handbook-2024_p4_para_0 | vinuni_handbook.pdf | page 4]\nTable of Contents 18 3Campus Overview 5Pre-Arrival Information 36Social Integration & Extra Curricular Activities 47Health Care, Mental Health & Insurance9Arrival and Settling In International Student Life VinUniversity 27Academic Support & University Resources Legal and emergency contact 49 2",
+        "context_ids": [
+          "vinuni-handbook-2024_p38_para_0",
+          "vinuni-handbook-2024_p51_para_0",
+          "vinuni-handbook-2024_p4_para_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "contact person for international student administration",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p4_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 4,
+            "text": "Table of Contents 18 3Campus Overview 5Pre-Arrival Information 36Social Integration & Extra Curricular Activities 47Health Care, Mental Health & Insurance9Arrival and Settling In International Student Life VinUniversity 27Academic Support & University Resources Legal and emergency contact 49 2",
+            "metadata": {
+              "section": "campus_overview",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p51_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Visa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a ‘DH’ notation on the top right of the page. 1.",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p6_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 6,
+            "text": "Dao Thuc Hanh (hanh.dt@vinuni.edu.vn) Administration International Students Le Bao Anh (anh.lb@vinuni.edu.vn) Dormitory Manager International Students Digital Platform Pham Thu Nga (nga.pt@vinuni.edu.vn) Student Council Young Change Maker Program OASIS Program MEET THE STAFF OF STUDENT AFFAIRS MANAGEMENT Pham Hong Hanh (Miley) (hanh.ph@vinuni.edu.vn) Head of S.A.M Nguyen Thi Thanh Tu (tu.ntt@vinuni.edu.vn) Student Club Work Study Program Ngo Van Dung (dung.nv@vinuni.edu.vn) Wellbeing Counselor Le Thanh Tung (tung.lt2@vinuni.edu.vn) Dormitory Manager Sports Complex Manager Code of Conduct Nguyen Thuy Linh (linh.nt3@vinuni.edu.vn) Student Services Manager Merchandise Store4",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.\n\n[vinuni-handbook-2024_p51_para_0 | vinuni_handbook.pdf | page 51]\nVisa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a ‘DH’ notation on the top right of the page. 1.\n\n[vinuni-handbook-2024_p4_para_0 | vinuni_handbook.pdf | page 4]\nTable of Contents 18 3Campus Overview 5Pre-Arrival Information 36Social Integration & Extra Curricular Activities 47Health Care, Mental Health & Insurance9Arrival and Settling In International Student Life VinUniversity 27Academic Support & University Resources Legal and emergency contact 49 2",
+        "context_ids": [
+          "vinuni-handbook-2024_p38_para_0",
+          "vinuni-handbook-2024_p51_para_0",
+          "vinuni-handbook-2024_p4_para_0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4530.7
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "What months make up Spring season in Hanoi according to the handbook?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The Spring season in Hanoi is from February to April [vinuni-handbook-2024_p10_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p10_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What months make up Spring season in Hanoi according to the handbook?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p10_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 10,
+            "text": "4 SEASONS IN HANOI Spring (February - April) This is widely considered the most pleasant season in Hanoi. Expect comfortable temperatures ranging from 23°C to 28°C with low humidity and occasional light drizzles. It's a perfect time for sightseeing and exploring the city's outdoor activities. Winter (December - January) Temperatures can drop as low as 6°C with dryness. We suggest you wear warm clothes and apply moisturizer, such as lotion and lip balm.",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p10_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 10,
+            "text": "Autumn (September - November) Autumn brings a gentle shift, with temperatures ranging from 22°C to 28°C. Humidity dips, making it perfect for outdoor adventures. This season boasts stunning fall foliage and offers a great balance for sightseeing and cultural experiences. Summer (May - August) The hottest and most humid months in Hanoi. Temperatures soar between 30°C to 38°C with frequent afternoon showers.",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p47_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 47,
+            "text": "Take a Bus to Bat Trang Pottery Village (~15,000 VND for a local bus ride) MUST TRY DISHES IN VIETNAM Egg Coffee at Giang Cafe (39 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Bun Cha at Obuncha (46 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Trang Tien Ice Cream (35 Trang Tien Street, Hoan Kiem District, Hanoi) Pho Thin Bo Ho (61 Dinh Tien Hoang Street, Hoan Kiem District, Hanoi) Cha Ca La Vong (14 Cha Ca, Hang Bo Street, Hoan Kiem District, Hanoi) Banh Mi at Ba Mi Sot (S212, Vinhomes oceanpark, Gia Lam District, Hanoi) 45",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.02976190476190476,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p10_para_0 | vinuni_handbook.pdf | page 10]\n4 SEASONS IN HANOI Spring (February - April) This is widely considered the most pleasant season in Hanoi. Expect comfortable temperatures ranging from 23°C to 28°C with low humidity and occasional light drizzles. It's a perfect time for sightseeing and exploring the city's outdoor activities. Winter (December - January) Temperatures can drop as low as 6°C with dryness. We suggest you wear warm clothes and apply moisturizer, such as lotion and lip balm.\n\n[vinuni-handbook-2024_p10_para_1 | vinuni_handbook.pdf | page 10]\nAutumn (September - November) Autumn brings a gentle shift, with temperatures ranging from 22°C to 28°C. Humidity dips, making it perfect for outdoor adventures. This season boasts stunning fall foliage and offers a great balance for sightseeing and cultural experiences. Summer (May - August) The hottest and most humid months in Hanoi. Temperatures soar between 30°C to 38°C with frequent afternoon showers.",
+        "context_ids": [
+          "vinuni-handbook-2024_p10_para_0",
+          "vinuni-handbook-2024_p10_para_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1486.91
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How much does the Viettel ST70K data package cost and what does it offer?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The Viettel ST70K data package costs 70,000 VND and offers 500 MB of data per day (15 GB per month) with a validity of 30 days [vinuni-handbook-2024_p16_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p16_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How much does the Viettel ST70K data package cost and what does it offer?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p16_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 16,
+            "text": "Viettel ST70K Package: Data: 500 MB per day (15 GB per month) Price: 70,000 VND Validity: 30 days ST90K Package: Data: 1 GB per day (30 GB per month) Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"ST70K\" or \"ST90K\" to 191. Via USSD: Dial *098# and follow the prompts. Vinaphone MAX100 Package: Data: 1.2 GB Price: 100,000 VND Validity: 30 days MAX200 Package: Data: 3 GB Price: 200,000 VND Validity: 30 days Registration: Via SMS: Text \"DK MAX100\" or \"DK MAX200\" to 888.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p16_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 16,
+            "text": "Note: Ensure your SIM is registered; registration requires a passport. Mobifone HD70 Package: Data: 3.8 GB Price: 70,000 VND Validity: 30 days HD90 Package: Data: 5.5 GB Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"DK HD70\" or \"DK HD90\" to 999. Note: Ensure your SIM is registered; registration requires a passport GETTING A SIM CARD & SETTING UP INTERNET SERVICE Listed below are some of the options you can choose for your SIM cards.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p9_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 9,
+            "text": "Pack Light & Buy Locally – Many items are available in Vietnam at reasonable prices. Visa-on-Arrival Fee (135 USD, Subject to Change) – Bring this amount in cash. Consider Luggage Weight Limits – Airlines have baggage restrictions. Prioritize Essentials & Budget - Friendly Items – Bring what you truly need first.",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p16_para_0 | vinuni_handbook.pdf | page 16]\nViettel ST70K Package: Data: 500 MB per day (15 GB per month) Price: 70,000 VND Validity: 30 days ST90K Package: Data: 1 GB per day (30 GB per month) Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"ST70K\" or \"ST90K\" to 191. Via USSD: Dial *098# and follow the prompts. Vinaphone MAX100 Package: Data: 1.2 GB Price: 100,000 VND Validity: 30 days MAX200 Package: Data: 3 GB Price: 200,000 VND Validity: 30 days Registration: Via SMS: Text \"DK MAX100\" or \"DK MAX200\" to 888.\n\n[vinuni-handbook-2024_p16_para_1 | vinuni_handbook.pdf | page 16]\nNote: Ensure your SIM is registered; registration requires a passport. Mobifone HD70 Package: Data: 3.8 GB Price: 70,000 VND Validity: 30 days HD90 Package: Data: 5.5 GB Price: 90,000 VND Validity: 30 days Registration: Via SMS: Text \"DK HD70\" or \"DK HD90\" to 999. Note: Ensure your SIM is registered; registration requires a passport GETTING A SIM CARD & SETTING UP INTERNET SERVICE Listed below are some of the options you can choose for your SIM cards.\n\n[vinuni-handbook-2024_p9_para_1 | vinuni_handbook.pdf | page 9]\nPack Light & Buy Locally – Many items are available in Vietnam at reasonable prices. Visa-on-Arrival Fee (135 USD, Subject to Change) – Bring this amount in cash. Consider Luggage Weight Limits – Airlines have baggage restrictions. Prioritize Essentials & Budget - Friendly Items – Bring what you truly need first.",
+        "context_ids": [
+          "vinuni-handbook-2024_p16_para_0",
+          "vinuni-handbook-2024_p16_para_1",
+          "vinuni-handbook-2024_p9_para_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2869.7
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Why does VinUniversity provide on-campus accommodation for all students?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model, which fosters a collaborative and supportive environment for students [vinuni-handbook-2024_p21_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p21_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Why does VinUniversity provide on-campus accommodation for all students?",
+        "filter": {
+          "section": "arrival_settling_in"
+        },
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p21_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p23_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 23,
+            "text": "OFF-CAMPUS HOUSING Beyond the first-year dorms, VinUni supports off-campus accommodation at Vinhomes Ocean Park, just a short walk away. Options include: Studios 1-bedroom, 2-bedroom, and 3-bedroom apartments Exchange students can also rent apartments within walking distance in the Vinhomes Apartment Buildings. 21",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p26_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 26,
+            "text": "STUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03036576949620428,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p21_para_0 | vinuni_handbook.pdf | page 21]\nDORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.\n\n[vinuni-handbook-2024_p23_para_0 | vinuni_handbook.pdf | page 23]\nOFF-CAMPUS HOUSING Beyond the first-year dorms, VinUni supports off-campus accommodation at Vinhomes Ocean Park, just a short walk away. Options include: Studios 1-bedroom, 2-bedroom, and 3-bedroom apartments Exchange students can also rent apartments within walking distance in the Vinhomes Apartment Buildings. 21\n\n[vinuni-handbook-2024_p26_para_0 | vinuni_handbook.pdf | page 26]\nSTUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+        "context_ids": [
+          "vinuni-handbook-2024_p21_para_0",
+          "vinuni-handbook-2024_p23_para_0",
+          "vinuni-handbook-2024_p26_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2082.04
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "What are the two food courts located on the VinUniversity campus?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The two food courts located on the VinUniversity campus are Foodology and The Little Kitchen [vinuni-handbook-2024_p24_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p24_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What are the two food courts located on the VinUniversity campus?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p24_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 24,
+            "text": "DINING OPTIONS Our campus features two amazing food courts: Foodology The Little Kitchen These dedicated spaces provide a wide array of delicious and affordable meal options, exclusively available to VinUni students, faculty, and staff. Fresh Garden – Quick breakfast to go Running late for class? Grab a quick and delicious breakfast from Fresh Garden bakery! You can enjoy a freshly made bánh mì and coffee from Highlands Coffee or a hot dumpling from the nearby convenience store.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p5_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 5,
+            "text": "The campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3",
+            "metadata": {
+              "section": "campus_overview",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.030303030303030304,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p49_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 49,
+            "text": "Medical clinic Location: Room I119 (easily accessible within the campus) Email: clinic@vinuni.edu.vn Phone: (+84) 866 200 019 Mental health counseling Location: Room I118 (easily accessible within the campus) Email: bewell@vinuni.edu.vn Phone: (+84) 868 900 016 How to book a counselling service On Campus Service Health Insurance 47",
+            "metadata": {
+              "section": "health_and_insurance",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.02877846790890269,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p24_para_0 | vinuni_handbook.pdf | page 24]\nDINING OPTIONS Our campus features two amazing food courts: Foodology The Little Kitchen These dedicated spaces provide a wide array of delicious and affordable meal options, exclusively available to VinUni students, faculty, and staff. Fresh Garden – Quick breakfast to go Running late for class? Grab a quick and delicious breakfast from Fresh Garden bakery! You can enjoy a freshly made bánh mì and coffee from Highlands Coffee or a hot dumpling from the nearby convenience store.\n\n[vinuni-handbook-2024_p5_para_0 | vinuni_handbook.pdf | page 5]\nThe campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares. With only a 19% building density and with 117 hectares dedicated to trees and natural areas, the campus will be an ideal setting for self-directed and collaborative learning, peaceful introspection, and inspirational beauty. CAMPUS OVERVIEW 3\n\n[vinuni-handbook-2024_p49_para_2 | vinuni_handbook.pdf | page 49]\nMedical clinic Location: Room I119 (easily accessible within the campus) Email: clinic@vinuni.edu.vn Phone: (+84) 866 200 019 Mental health counseling Location: Room I118 (easily accessible within the campus) Email: bewell@vinuni.edu.vn Phone: (+84) 868 900 016 How to book a counselling service On Campus Service Health Insurance 47",
+        "context_ids": [
+          "vinuni-handbook-2024_p24_para_0",
+          "vinuni-handbook-2024_p5_para_0",
+          "vinuni-handbook-2024_p49_para_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1873.63
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "What is the estimated monthly housing expense for students?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The estimated monthly housing expense for students is approximately 3,500,000 VND [vinuni-handbook-2024_p28_para_1].",
+    "citations": [
+      "vinuni-handbook-2024_p28_para_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the estimated monthly housing expense for students?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p28_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 28,
+            "text": "Expense Amount (VND) 1 Housing ~ 3.500.000 per month 2 Food ~ 5.000.000 per month 3 Health care Health insurance ~ 4.570.000 for 12 months ~ 1.000.000 VND per month Out-of- pocket Doctor consultation ~ 300.000 per visit (every 3 months) Specialist consultation ~ 1.000.000 per visit (every 3 months) Prescription Medication ~ 200.000 per month Basic dental check-up ~ 300.000 per visit (every 3 months) Health check-up ~ 2.000.000 per visit (every 6 months) 4 Social activity and basic shopping ~ 2.000.000 per month 5 Visa ~ 3.500.000 for 12 months EXPENSES Money saving tips Track Your Expenses: Using apps like Money Lover or Spendee Eat like a local: Vietnamese street food is delicious and much cheaper than the international restaurants.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031099324975891997,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "Dormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p28_para_1 | vinuni_handbook.pdf | page 28]\nExpense Amount (VND) 1 Housing ~ 3.500.000 per month 2 Food ~ 5.000.000 per month 3 Health care Health insurance ~ 4.570.000 for 12 months ~ 1.000.000 VND per month Out-of- pocket Doctor consultation ~ 300.000 per visit (every 3 months) Specialist consultation ~ 1.000.000 per visit (every 3 months) Prescription Medication ~ 200.000 per month Basic dental check-up ~ 300.000 per visit (every 3 months) Health check-up ~ 2.000.000 per visit (every 6 months) 4 Social activity and basic shopping ~ 2.000.000 per month 5 Visa ~ 3.500.000 for 12 months EXPENSES Money saving tips Track Your Expenses: Using apps like Money Lover or Spendee Eat like a local: Vietnamese street food is delicious and much cheaper than the international restaurants.\n\n[vinuni-handbook-2024_p21_para_0 | vinuni_handbook.pdf | page 21]\nDORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+        "context_ids": [
+          "vinuni-handbook-2024_p28_para_1",
+          "vinuni-handbook-2024_p21_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1558.67
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What type of academic system does VinUniversity follow?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "VinUniversity follows a semester-based academic system with clear term start and end dates [vinuni-handbook-2024_p32_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p32_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What type of academic system does VinUniversity follow?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p32_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 32,
+            "text": "VinUniversity follows a semester-based system with clear term start and end dates. Credit Requirements Each program has a specified number of credits required for graduation. Students should review their degree plans with academic advisors to ensure timely completion. Graduation Review Process Students must submit a graduation application and ensure all academic requirements are met. Required documents include: Completed degree audit. Clearance forms from university departments.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "ACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p34_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 34,
+            "text": "Courses at VinUniversity Students facing difficulties with English may enroll in VinUniversity’s Academic English Support Program. If any students do not meet the English language proficiency requirements of VinUni then He/She should have to study English pathways classes for two semesters.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.030090497737556562,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p32_para_0 | vinuni_handbook.pdf | page 32]\nVinUniversity follows a semester-based system with clear term start and end dates. Credit Requirements Each program has a specified number of credits required for graduation. Students should review their degree plans with academic advisors to ensure timely completion. Graduation Review Process Students must submit a graduation application and ensure all academic requirements are met. Required documents include: Completed degree audit. Clearance forms from university departments.\n\n[vinuni-handbook-2024_p31_para_0 | vinuni_handbook.pdf | page 31]\nACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.\n\n[vinuni-handbook-2024_p34_para_0 | vinuni_handbook.pdf | page 34]\nCourses at VinUniversity Students facing difficulties with English may enroll in VinUniversity’s Academic English Support Program. If any students do not meet the English language proficiency requirements of VinUni then He/She should have to study English pathways classes for two semesters.",
+        "context_ids": [
+          "vinuni-handbook-2024_p32_para_0",
+          "vinuni-handbook-2024_p31_para_0",
+          "vinuni-handbook-2024_p34_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1550.97
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What is the minimum overall IELTS band score required for English proficiency?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The minimum overall IELTS band score required for English proficiency is 6.5, with no section below 6.0 [vinuni-handbook-2024_p33_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p33_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the minimum overall IELTS band score required for English proficiency?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p33_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 33,
+            "text": "Accepted tests: C1 Advanced (formerly known as CAE) or C2 Proficiency (formerly known as CPE) IELTS Academic TOEFL iBT Pearson Test of English (PTE Academic) Cambridge English Qualifications (using the Cambridge English Scale) Vietnamese Standardized Test of English Proficiency (VSTEP) VinUniversity English Placement Test Minimum overall band score of 6.5, with no section below 6.0 Minimu m score of 79 An overall score of 56 with no communicati ve skills scores less than 46 An overall score of 176 with no skill below 169 in any Component Result is equivalent to VSTEP Level 5 C1 level An overall result of “Meets direct entry English requirements.” ENGLISH PROFICIENCY REQUIREMENT Since English is the primary language of instruction at VinUniversity, all admitted students must be able to communicate effectively.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p33_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 33,
+            "text": "VinUniversity will support candidates recommended for admission who do not meet the minimum language requirements (see conditional admission) in enhancing their English proficiency. English Language Requirements For Undergraduate Admissions: Students must meet one of the following minimum requirements: 31",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p34_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 34,
+            "text": "Exemptions from English Proficiency Tests Students may be exempted from the English proficiency requirement if they: Completed high school education in an English-speaking country. Completed an International Baccalaureate (IB) Diploma or A-Level curriculum with English as the primary language of instruction. Have other equivalent qualifications approved by the university. 32",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p33_para_0 | vinuni_handbook.pdf | page 33]\nAccepted tests: C1 Advanced (formerly known as CAE) or C2 Proficiency (formerly known as CPE) IELTS Academic TOEFL iBT Pearson Test of English (PTE Academic) Cambridge English Qualifications (using the Cambridge English Scale) Vietnamese Standardized Test of English Proficiency (VSTEP) VinUniversity English Placement Test Minimum overall band score of 6.5, with no section below 6.0 Minimu m score of 79 An overall score of 56 with no communicati ve skills scores less than 46 An overall score of 176 with no skill below 169 in any Component Result is equivalent to VSTEP Level 5 C1 level An overall result of “Meets direct entry English requirements.” ENGLISH PROFICIENCY REQUIREMENT Since English is the primary language of instruction at VinUniversity, all admitted students must be able to communicate effectively.\n\n[vinuni-handbook-2024_p33_para_1 | vinuni_handbook.pdf | page 33]\nVinUniversity will support candidates recommended for admission who do not meet the minimum language requirements (see conditional admission) in enhancing their English proficiency. English Language Requirements For Undergraduate Admissions: Students must meet one of the following minimum requirements: 31",
+        "context_ids": [
+          "vinuni-handbook-2024_p33_para_0",
+          "vinuni-handbook-2024_p33_para_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1959.19
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "What Learning Management System (LMS) is used by VinUniversity students to access course materials?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "VinUniversity uses Canvas as its Learning Management System (LMS) for students to access course materials, submit assignments, view grades, and communicate with professors [vinuni-handbook-2024_p35_para_1].",
+    "citations": [
+      "vinuni-handbook-2024_p35_para_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What Learning Management System (LMS) is used by VinUniversity students to access course materials?",
+        "filter": {
+          "section": "academic_support"
+        },
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p35_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 35,
+            "text": "GUIDE TO USING THE UINIVERSITY LMS AND SIS PLATFORM Accessing Course Materials on Canvas (LMS) VinUniversity uses Canvas as its Learning Management System (LMS). Students can access course materials, submit assignments, view grades, and communicate with professors through this platform. Step-by-Step Guide to Logging into Canvas Library Resources & Borrowing Books The VinUniversity library provides both physical and digital resources for students.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "ACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p35_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 35,
+            "text": "1. Go to the Canvas website: 2. Enter your VinUniversity credentials: Username: Your VinUni email (e.g., 24firstname.lastname@vinuni.edu. vn) Password: Your VinUni-provided password 3. Click on \"Login\" 4. Once logged in, you will see your Dashboard, where all your courses are listed. 5. Click on a course to access materials such as lecture slides, assignments, and announcements.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03125763125763126,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p35_para_1 | vinuni_handbook.pdf | page 35]\nGUIDE TO USING THE UINIVERSITY LMS AND SIS PLATFORM Accessing Course Materials on Canvas (LMS) VinUniversity uses Canvas as its Learning Management System (LMS). Students can access course materials, submit assignments, view grades, and communicate with professors through this platform. Step-by-Step Guide to Logging into Canvas Library Resources & Borrowing Books The VinUniversity library provides both physical and digital resources for students.\n\n[vinuni-handbook-2024_p31_para_0 | vinuni_handbook.pdf | page 31]\nACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.\n\n[vinuni-handbook-2024_p35_para_0 | vinuni_handbook.pdf | page 35]\n1. Go to the Canvas website: 2. Enter your VinUniversity credentials: Username: Your VinUni email (e.g., 24firstname.lastname@vinuni.edu. vn) Password: Your VinUni-provided password 3. Click on \"Login\" 4. Once logged in, you will see your Dashboard, where all your courses are listed. 5. Click on a course to access materials such as lecture slides, assignments, and announcements.",
+        "context_ids": [
+          "vinuni-handbook-2024_p35_para_1",
+          "vinuni-handbook-2024_p31_para_0",
+          "vinuni-handbook-2024_p35_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1731.53
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "What is the student-led organization representing international students at VinUniversity?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The student-led organization representing international students at VinUniversity is the VinUni International Students Association (VISA). It serves as a hub for cultural exchange and advocates for international students' rights, providing support and resources to help them thrive at the university [vinuni-handbook-2024_p38_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p38_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the student-led organization representing international students at VinUniversity?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p38_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 38,
+            "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p26_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 26,
+            "text": "STUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p3_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 3,
+            "text": "Our international students are not just part of the VinUniversity family, they are ambassadors of their cultures and essential contributors to our global dialogue. At VinUniversity, we celebrate this diversity daily, ensuring that every voice is heard and every perspective valued. Together, we’re not just building a university, we’re creating a global community of leaders, thinkers, and innovators.",
+            "metadata": {
+              "section": "campus_overview",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.\n\n[vinuni-handbook-2024_p26_para_0 | vinuni_handbook.pdf | page 26]\nSTUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!\n\n[vinuni-handbook-2024_p3_para_1 | vinuni_handbook.pdf | page 3]\nOur international students are not just part of the VinUniversity family, they are ambassadors of their cultures and essential contributors to our global dialogue. At VinUniversity, we celebrate this diversity daily, ensuring that every voice is heard and every perspective valued. Together, we’re not just building a university, we’re creating a global community of leaders, thinkers, and innovators.",
+        "context_ids": [
+          "vinuni-handbook-2024_p38_para_0",
+          "vinuni-handbook-2024_p26_para_0",
+          "vinuni-handbook-2024_p3_para_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1813.37
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "What is the annual sports tournament hosted at VinUni where colleges compete against each other?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The annual sports tournament hosted at VinUni where colleges compete against each other is called Green Sports Day. During this event, each college forms its own team to compete in various sports and e-sports events, showcasing athletic skills and teamwork [vinuni-handbook-2024_p42_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p42_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the annual sports tournament hosted at VinUni where colleges compete against each other?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p42_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 42,
+            "text": "Green Sports Day is an annual sports competition in VinUni. During this thrilling competition, each college forms its own team to battle it out in a series of intense sports and e-sports events, where students showcase their athletic skills, strategic thinking, and teamwork. With the entire VinUniversity community watching, this is your chance to prove your prowess, represent your college, and experience the spirit of competition like never before!",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p40_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 40,
+            "text": "At VinUni, there’s no shortage of ways to connect, grow, and make your mark! Beyond VISA, VinUni offers a dynamic array of clubs to match every passion and interest!There are various categories of clubs including cultural and performing arts groups, sports and gaming clubs, leadership and activism groups, and student publications.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03125763125763126,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p41_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 41,
+            "text": "Beyond the freshman convocation, the formal graduation ceremony stands as a momentous occasion, honoring the incredible accomplishments of graduating seniors. Another must-attend event is Open Day, where every club at VinUniversity sets up vibrant stalls, transforming the campus into a lively showcase of diversity, passion, and creativity. This is the perfect opportunity for students to explore their interests, meet like-minded peers, and get a true feel for the dynamic spirit of VinUni.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p42_para_0 | vinuni_handbook.pdf | page 42]\nGreen Sports Day is an annual sports competition in VinUni. During this thrilling competition, each college forms its own team to battle it out in a series of intense sports and e-sports events, where students showcase their athletic skills, strategic thinking, and teamwork. With the entire VinUniversity community watching, this is your chance to prove your prowess, represent your college, and experience the spirit of competition like never before!\n\n[vinuni-handbook-2024_p40_para_0 | vinuni_handbook.pdf | page 40]\nAt VinUni, there’s no shortage of ways to connect, grow, and make your mark! Beyond VISA, VinUni offers a dynamic array of clubs to match every passion and interest!There are various categories of clubs including cultural and performing arts groups, sports and gaming clubs, leadership and activism groups, and student publications.\n\n[vinuni-handbook-2024_p41_para_2 | vinuni_handbook.pdf | page 41]\nBeyond the freshman convocation, the formal graduation ceremony stands as a momentous occasion, honoring the incredible accomplishments of graduating seniors. Another must-attend event is Open Day, where every club at VinUniversity sets up vibrant stalls, transforming the campus into a lively showcase of diversity, passion, and creativity. This is the perfect opportunity for students to explore their interests, meet like-minded peers, and get a true feel for the dynamic spirit of VinUni.",
+        "context_ids": [
+          "vinuni-handbook-2024_p42_para_0",
+          "vinuni-handbook-2024_p40_para_0",
+          "vinuni-handbook-2024_p41_para_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2095.19
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Which instant messaging application is widely used for communication in Vietnam according to the guide?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The widely used instant messaging application for communication in Vietnam is Zalo, developed by VNG Corporation. Messenger is also popular among locals for communication [vinuni-handbook-2024_p43_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p43_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Which instant messaging application is widely used for communication in Vietnam according to the guide?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p43_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 43,
+            "text": "COMMUNICATION APPS & STAYING CONNECTED In Vietnam, the go-to messaging app is Zalo, a Vietnamese instant messaging platform developed by VNG Corporation, widely used for both personal and professional communication. Messenger is also a popular choice for staying in touch with locals. For social interactions, Instagram and Facebook are great platforms to connect with peers and stay updated on campus life.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p43_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 43,
+            "text": "However, while WhatsApp is rarely used among locals, it remains a bridge among international students, especially those still getting familiar with Vietnam’s preferred communication apps. For formal collaboration on group assignments and projects, Microsoft Teams is the go-to platform. Its versatile features, including video calls, file sharing, and real-time document collaboration, make it an essential tool for efficient teamwork and seamless communication among students. 41",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p17_para_4",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 17,
+            "text": "To ensure a smooth bank transaction for your account, it is recommended to download the designated app from your bank account. ATM cards can usually be acquired only after living in Vietnam for a few months. 15",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.031024531024531024,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p43_para_0 | vinuni_handbook.pdf | page 43]\nCOMMUNICATION APPS & STAYING CONNECTED In Vietnam, the go-to messaging app is Zalo, a Vietnamese instant messaging platform developed by VNG Corporation, widely used for both personal and professional communication. Messenger is also a popular choice for staying in touch with locals. For social interactions, Instagram and Facebook are great platforms to connect with peers and stay updated on campus life.\n\n[vinuni-handbook-2024_p43_para_1 | vinuni_handbook.pdf | page 43]\nHowever, while WhatsApp is rarely used among locals, it remains a bridge among international students, especially those still getting familiar with Vietnam’s preferred communication apps. For formal collaboration on group assignments and projects, Microsoft Teams is the go-to platform. Its versatile features, including video calls, file sharing, and real-time document collaboration, make it an essential tool for efficient teamwork and seamless communication among students. 41\n\n[vinuni-handbook-2024_p17_para_4 | vinuni_handbook.pdf | page 17]\nTo ensure a smooth bank transaction for your account, it is recommended to download the designated app from your bank account. ATM cards can usually be acquired only after living in Vietnam for a few months. 15",
+        "context_ids": [
+          "vinuni-handbook-2024_p43_para_0",
+          "vinuni-handbook-2024_p43_para_1",
+          "vinuni-handbook-2024_p17_para_4"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1853.18
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How far is Bat Trang Pottery Village from VinUniversity campus?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Bat Trang Pottery Village is approximately 15 minutes away from VinUniversity campus [vinuni-handbook-2024_p46_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p46_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How far is Bat Trang Pottery Village from VinUniversity campus?",
+        "filter": {
+          "section": "social_integration"
+        },
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p46_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 46,
+            "text": "TRADITIONAL VILLAGES & LOCAL CRAFTS Bat Trang Pottery Village Distance from VinUniversity: 15 minutes Known for its centuries-old ceramic craftsmanship, Bat Trang Village offers a hands-on experience where visitors can try their hand at pottery-making and learn about the cultural significance of ceramics in Vietnam. Duong Lam Ancient Village Distance from VinUniversity: 60 minutes This 1,200-year-old village is home to houses dating back up to 400 years!",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p47_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 47,
+            "text": "Take a Bus to Bat Trang Pottery Village (~15,000 VND for a local bus ride) MUST TRY DISHES IN VIETNAM Egg Coffee at Giang Cafe (39 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Bun Cha at Obuncha (46 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Trang Tien Ice Cream (35 Trang Tien Street, Hoan Kiem District, Hanoi) Pho Thin Bo Ho (61 Dinh Tien Hoang Street, Hoan Kiem District, Hanoi) Cha Ca La Vong (14 Cha Ca, Hang Bo Street, Hoan Kiem District, Hanoi) Banh Mi at Ba Mi Sot (S212, Vinhomes oceanpark, Gia Lam District, Hanoi) 45",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p45_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 45,
+            "text": "From unique shops and vibrant markets to centuries-old houses, the Old Quarter is a must-visit for shopping, sightseeing, and trying local street food. Hoan Kiem Lake Distance from VinUniversity: 45 minutes A favorite spot for locals and tourists alike, this lake is a peaceful escape in the heart of Hanoi. Whether you're walking, exercising, or just enjoying the view, it’s the perfect place to experience Hanoi’s charm. SCENIC & RELAXING SPOTS 43",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p46_para_0 | vinuni_handbook.pdf | page 46]\nTRADITIONAL VILLAGES & LOCAL CRAFTS Bat Trang Pottery Village Distance from VinUniversity: 15 minutes Known for its centuries-old ceramic craftsmanship, Bat Trang Village offers a hands-on experience where visitors can try their hand at pottery-making and learn about the cultural significance of ceramics in Vietnam. Duong Lam Ancient Village Distance from VinUniversity: 60 minutes This 1,200-year-old village is home to houses dating back up to 400 years!\n\n[vinuni-handbook-2024_p47_para_3 | vinuni_handbook.pdf | page 47]\nTake a Bus to Bat Trang Pottery Village (~15,000 VND for a local bus ride) MUST TRY DISHES IN VIETNAM Egg Coffee at Giang Cafe (39 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Bun Cha at Obuncha (46 Nguyen Huu Huan, Hoan Kiem District, Hanoi) Trang Tien Ice Cream (35 Trang Tien Street, Hoan Kiem District, Hanoi) Pho Thin Bo Ho (61 Dinh Tien Hoang Street, Hoan Kiem District, Hanoi) Cha Ca La Vong (14 Cha Ca, Hang Bo Street, Hoan Kiem District, Hanoi) Banh Mi at Ba Mi Sot (S212, Vinhomes oceanpark, Gia Lam District, Hanoi) 45",
+        "context_ids": [
+          "vinuni-handbook-2024_p46_para_0",
+          "vinuni-handbook-2024_p47_para_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1524.93
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Who established VinUniversity and what is its non-profit status?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "VinUniversity was established by Vingroup, which is the largest private conglomerate in Vietnam. It is a private, not-for-profit university [vinuni-handbook-2024_p3_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p3_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Who established VinUniversity and what is its non-profit status?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p3_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 3,
+            "text": "VinUniversity is a private, not-for-profit university established by Vingroup – the largest private conglomerate in Vietnam. We offer a variety of undergraduate and graduate programs in a wide range of disciplines, all taught in English by world- class faculty. Our students come from all over the world, creating a diverse and vibrant learning environment.",
+            "metadata": {
+              "section": "campus_overview",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p12_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 12,
+            "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p38_para_0",
+            "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 38,
+            "metadata": {
+              "section": "social_integration",
+              "chunk_index": 0,
+              "language": "en",
+              "year": 2024,
+              "char_count": 482,
+              "chunk_type": "paragraph"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p3_para_0 | vinuni_handbook.pdf | page 3]\nVinUniversity is a private, not-for-profit university established by Vingroup – the largest private conglomerate in Vietnam. We offer a variety of undergraduate and graduate programs in a wide range of disciplines, all taught in English by world- class faculty. Our students come from all over the world, creating a diverse and vibrant learning environment.\n\n[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you’re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.\n\n[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students’ rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+        "context_ids": [
+          "vinuni-handbook-2024_p3_para_0",
+          "vinuni-handbook-2024_p12_para_0",
+          "vinuni-handbook-2024_p38_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2179.08
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "What is the tuition fee for the Master of Science in Artificial Intelligence program at VinUniversity?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the tuition fee for the Master of Science in Artificial Intelligence program at VinUniversity?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p34_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 34,
+            "text": "Courses at VinUniversity Students facing difficulties with English may enroll in VinUniversity’s Academic English Support Program. If any students do not meet the English language proficiency requirements of VinUni then He/She should have to study English pathways classes for two semesters.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.03021353930031804,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "Withdrawn courses may have tuition adjustments based on the university’s refund policy. 29 Course Registration Process",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.02919863597612958,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_1",
+            "text": "Detailed course offerings and descriptions will be available on the student portal. Consult your academic advisor before finalizing your course selections if needed. Course Load & Requirements Undergraduate students are typically required to enroll in a minimum of 12 credits per semester. The maximum credit limit per semester is 20 credits, unless special approval is obtained. Students must ensure they meet the prerequisites for each course before registering.",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "metadata": {
+              "chunk_type": "paragraph",
+              "language": "en",
+              "char_count": 464,
+              "chunk_index": 1,
+              "section": "academic_support",
+              "year": 2024
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p34_para_0 | vinuni_handbook.pdf | page 34]\nCourses at VinUniversity Students facing difficulties with English may enroll in VinUniversity’s Academic English Support Program. If any students do not meet the English language proficiency requirements of VinUni then He/She should have to study English pathways classes for two semesters.\n\n[vinuni-handbook-2024_p31_para_3 | vinuni_handbook.pdf | page 31]\nWithdrawn courses may have tuition adjustments based on the university’s refund policy. 29 Course Registration Process\n\n[vinuni-handbook-2024_p31_para_1 | vinuni_handbook.pdf | page 31]\nDetailed course offerings and descriptions will be available on the student portal. Consult your academic advisor before finalizing your course selections if needed. Course Load & Requirements Undergraduate students are typically required to enroll in a minimum of 12 credits per semester. The maximum credit limit per semester is 20 credits, unless special approval is obtained. Students must ensure they meet the prerequisites for each course before registering.",
+        "context_ids": [
+          "vinuni-handbook-2024_p34_para_0",
+          "vinuni-handbook-2024_p31_para_3",
+          "vinuni-handbook-2024_p31_para_1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1288.25
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "What is the pet policy and monthly deposit fee for keeping a dog or cat in the VinUniversity student dormitories?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the pet policy and monthly deposit fee for keeping a dog or cat in the VinUniversity student dormitories?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p8_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 8,
+            "text": "For more details visit the policy page using this link. PRE-PACKING CHECKLIST 6",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.028381642512077296,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_2",
+            "text": "Dormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "metadata": {
+              "chunk_index": 2,
+              "language": "en",
+              "chunk_type": "paragraph",
+              "year": 2024,
+              "section": "arrival_settling_in",
+              "char_count": 488
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p51_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Failure to maintain a valid visa may lead to penalties, impacting the student’s ability to remain enrolled and legally reside in Vietnam. VinUniversity disclaims any responsibility for incidents, legal matters, or other consequences arising from a student's overdue visa. Penalty Fee (for Overstaying): The penalty fee for overstaying depends on individual cases, as determined by the Vietnamese Immigration Department. 2.",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p8_para_2 | vinuni_handbook.pdf | page 8]\nFor more details visit the policy page using this link. PRE-PACKING CHECKLIST 6\n\n[vinuni-handbook-2024_p21_para_2 | vinuni_handbook.pdf | page 21]\nDormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.\n\n[vinuni-handbook-2024_p51_para_2 | vinuni_handbook.pdf | page 51]\nFailure to maintain a valid visa may lead to penalties, impacting the student’s ability to remain enrolled and legally reside in Vietnam. VinUniversity disclaims any responsibility for incidents, legal matters, or other consequences arising from a student's overdue visa. Penalty Fee (for Overstaying): The penalty fee for overstaying depends on individual cases, as determined by the Vietnamese Immigration Department. 2.",
+        "context_ids": [
+          "vinuni-handbook-2024_p8_para_2",
+          "vinuni-handbook-2024_p21_para_2",
+          "vinuni-handbook-2024_p51_para_2"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1258.57
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: '420 hectares'. Supporting citations: ['vinuni-handbook-2024_p5_para_0']."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Agent abstained on answerable question."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'February to April'. Supporting citations: ['vinuni-handbook-2024_p10_para_0']."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: '70,000 VND for 500 MB per day (15 GB per month) with 30 days validity'. Supporting citations: ['vinuni-handbook-2024_p16_para_0']."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'As part of its co-living and co-learning philosophy'. Supporting citations: ['vinuni-handbook-2024_p21_para_0']."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Foodology and The Little Kitchen'. Supporting citations: ['vinuni-handbook-2024_p24_para_0']."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Approximately 3,500,000 VND per month'. Supporting citations: ['vinuni-handbook-2024_p28_para_1']."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'A semester-based system with clear term start and end dates'. Supporting citations: ['vinuni-handbook-2024_p32_para_0']."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Minimum overall band score of 6.5, with no section below 6.0'. Supporting citations: ['vinuni-handbook-2024_p33_para_0']."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Canvas'. Supporting citations: ['vinuni-handbook-2024_p35_para_1']."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'VISA (VinUni International Students Association)'. Supporting citations: ['vinuni-handbook-2024_p38_para_0']."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Green Sports Day'. Supporting citations: ['vinuni-handbook-2024_p42_para_0']."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Zalo'. Supporting citations: ['vinuni-handbook-2024_p43_para_0']."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: '15 minutes'. Supporting citations: ['vinuni-handbook-2024_p46_para_0']."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer matches expected fact: 'Established by Vingroup as a private, not-for-profit university'. Supporting citations: ['vinuni-handbook-2024_p3_para_0']."
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Agent correctly abstained. Reason: Handbook only covers general international student undergraduate orientation, arrival, and campus life; Master of Science in AI tuition fees are not present."
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Agent correctly abstained. Reason: Dormitory registration rules cover room types and fees, but contain no policy or fee structure permitting pets in student dormitories."
+  }
+]

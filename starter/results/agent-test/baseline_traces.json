@@ -1,0 +1,758 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Who is the contact person in charge of Dormitory at VinUniversity?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Kh\u00f4ng \u0111\u1ee7 b\u1eb1ng ch\u1ee9ng \u0111\u1ec3 tr\u1ea3 l\u1eddi.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Who is the contact person in charge of Dormitory at VinUniversity?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p21_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "Dormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.21703655101309016,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "A dormitory orientation session will be conducted to help students settle in and understand dormitory policies. 19",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.19688777769311186,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.174300797976253,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p21_para_2 | vinuni_handbook.pdf | page 21]\nDormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.\n\n[vinuni-handbook-2024_p21_para_3 | vinuni_handbook.pdf | page 21]\nA dormitory orientation session will be conducted to help students settle in and understand dormitory policies. 19",
+        "context_ids": [
+          "vinuni-handbook-2024_p21_para_2",
+          "vinuni-handbook-2024_p21_para_3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "contact person Dormitory VinUniversity",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p21_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "A dormitory orientation session will be conducted to help students settle in and understand dormitory policies. 19",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.2204814955079586,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "DORMITORY REGISTRATION GUIDE VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning model. To register for dormitory housing, follow the steps below: Receive Accommodation Information All students will receive an official notification via their VinUni email regarding dormitory registration. This notification will include a dormitory registration form, outlining available accommod-ation types, housing policies, and submission deadlines.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.20410157663048065,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "Dormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.19256688087225,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p21_para_2 | vinuni_handbook.pdf | page 21]\nDormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.\n\n[vinuni-handbook-2024_p21_para_3 | vinuni_handbook.pdf | page 21]\nA dormitory orientation session will be conducted to help students settle in and understand dormitory policies. 19",
+        "context_ids": [
+          "vinuni-handbook-2024_p21_para_2",
+          "vinuni-handbook-2024_p21_para_3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "contact person Dormitory Management Office VinUniversity",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p21_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "Dormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.2652605305134189,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p21_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 21,
+            "text": "A dormitory orientation session will be conducted to help students settle in and understand dormitory policies. 19",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.18403338325236215,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p51_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Exceptional cases and travel restrictions Students may not travel away from Hanoi during the visa renewal process, as the Immigration Office will hold their passport. If urgent travel is required, students should contact Student Affairs Management immediately to discuss options. 49",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.1713125952370399,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p21_para_2 | vinuni_handbook.pdf | page 21]\nDormitory Assignment & Confirmation The Student Housing Office will review applications and assign accommodations based on availability and diversity considerations (college, nationality, and hometown). First-year students will receive a confirmation email with details about their dormitory placement, move-in date, and check-in procedures. Move-In & Orientation Upon arrival, students must check in at the Dormitory Management Office to receive their room key and dormitory regulations.\n\n[vinuni-handbook-2024_p21_para_3 | vinuni_handbook.pdf | page 21]\nA dormitory orientation session will be conducted to help students settle in and understand dormitory policies. 19",
+        "context_ids": [
+          "vinuni-handbook-2024_p21_para_2",
+          "vinuni-handbook-2024_p21_para_3"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 9006.19
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What estimated monthly budget is needed for food expenses according to the student expense summary?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Kh\u00f4ng \u0111\u1ee7 b\u1eb1ng ch\u1ee9ng \u0111\u1ec3 tr\u1ea3 l\u1eddi.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What estimated monthly budget is needed for food expenses according to the student expense summary?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p27_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 27,
+            "text": "As a busy student, food delivery apps can be a convenient solution for meals and grocery shopping: Shopee (Food Section & More) Download the app to order groceries and meals quickly.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.13411457914242972,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p12_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 12,
+            "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you\u2019re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.13349553634313244,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p27_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 27,
+            "text": "Grab (Food & Services) \u2013 Order food from fast-food chains (KFC, Texas Chicken, cake shops) or traditional Vietnamese restaurants IOS IOS Android Android Special Dietary Needs & Halal Options For students with dietary or religious restrictions, here are some recommended options: Om Indian Restaurant & Bar \u2013 Offers vegan-friendly dishes. Fatiha Food \u2013 Specializes in Halal meats and meals that are available for delivery. Banh Mi Hai Trung (Circle K) \u2013 A convenient option for a quick bite. 25",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.11380009702873033,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p27_para_1 | vinuni_handbook.pdf | page 27]\nAs a busy student, food delivery apps can be a convenient solution for meals and grocery shopping: Shopee (Food Section & More) Download the app to order groceries and meals quickly.\n\n[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you\u2019re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "context_ids": [
+          "vinuni-handbook-2024_p27_para_1",
+          "vinuni-handbook-2024_p12_para_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "student expense summary food budget",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p27_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 27,
+            "text": "As a busy student, food delivery apps can be a convenient solution for meals and grocery shopping: Shopee (Food Section & More) Download the app to order groceries and meals quickly.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.18571602249311342,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p27_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 27,
+            "text": "Grab (Food & Services) \u2013 Order food from fast-food chains (KFC, Texas Chicken, cake shops) or traditional Vietnamese restaurants IOS IOS Android Android Special Dietary Needs & Halal Options For students with dietary or religious restrictions, here are some recommended options: Om Indian Restaurant & Bar \u2013 Offers vegan-friendly dishes. Fatiha Food \u2013 Specializes in Halal meats and meals that are available for delivery. Banh Mi Hai Trung (Circle K) \u2013 A convenient option for a quick bite. 25",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.16234106749960098,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p47_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 47,
+            "text": "BUDGET FRIENDLY ADVENTURES Foodie Go on a Street Food Tour (50,000 - 100,000 VND per meal). Try Pho (beef noodle soup), Banh Mi (Vietnamese sandwich), Bun Cha (grilled pork with noodles), and Egg Coffee. Eat at a Local Night Market (Dong Xuan, Old Quarter, or Tay Ho) Affordable snacks like grilled skewers, sticky rice, fried spring rolls, and fresh fruit smoothies.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.11813074047390193,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p27_para_1 | vinuni_handbook.pdf | page 27]\nAs a busy student, food delivery apps can be a convenient solution for meals and grocery shopping: Shopee (Food Section & More) Download the app to order groceries and meals quickly.\n\n[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you\u2019re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "context_ids": [
+          "vinuni-handbook-2024_p27_para_1",
+          "vinuni-handbook-2024_p12_para_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "student expense summary food budget",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p27_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 27,
+            "text": "As a busy student, food delivery apps can be a convenient solution for meals and grocery shopping: Shopee (Food Section & More) Download the app to order groceries and meals quickly.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.18571602249311342,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p27_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 27,
+            "text": "Grab (Food & Services) \u2013 Order food from fast-food chains (KFC, Texas Chicken, cake shops) or traditional Vietnamese restaurants IOS IOS Android Android Special Dietary Needs & Halal Options For students with dietary or religious restrictions, here are some recommended options: Om Indian Restaurant & Bar \u2013 Offers vegan-friendly dishes. Fatiha Food \u2013 Specializes in Halal meats and meals that are available for delivery. Banh Mi Hai Trung (Circle K) \u2013 A convenient option for a quick bite. 25",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.16234106749960098,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p47_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 47,
+            "text": "BUDGET FRIENDLY ADVENTURES Foodie Go on a Street Food Tour (50,000 - 100,000 VND per meal). Try Pho (beef noodle soup), Banh Mi (Vietnamese sandwich), Bun Cha (grilled pork with noodles), and Egg Coffee. Eat at a Local Night Market (Dong Xuan, Old Quarter, or Tay Ho) Affordable snacks like grilled skewers, sticky rice, fried spring rolls, and fresh fruit smoothies.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.11813074047390193,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p27_para_1 | vinuni_handbook.pdf | page 27]\nAs a busy student, food delivery apps can be a convenient solution for meals and grocery shopping: Shopee (Food Section & More) Download the app to order groceries and meals quickly.\n\n[vinuni-handbook-2024_p12_para_0 | vinuni_handbook.pdf | page 12]\nWelcome to Hanoi, Vietnam! You have just arrived and now you\u2019re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+        "context_ids": [
+          "vinuni-handbook-2024_p27_para_1",
+          "vinuni-handbook-2024_p12_para_0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 2567.88
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Are international students covered by Vietnam's Social Insurance program for healthcare?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "International students are not covered by Vietnam's Social Insurance program for healthcare. They need to purchase their own health insurance plan from private companies for other healthcare services [vinuni-handbook-2024_p49_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p49_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Are international students covered by Vietnam's Social Insurance program for healthcare?",
+        "filter": {
+          "section": "health_and_insurance"
+        },
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p49_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 49,
+            "text": "At VinUniversity, you can freely access the medical clinic and the psychological counseling service for primary care. However, since the Social Insurance program in Vietnam does not cover foreign national, you will need to purchase your own health insurance plan from private companies for other health care services. At VinUni, the medical clinic can support in provide more information and advise on your health insurance plan.",
+            "metadata": {
+              "section": "health_and_insurance",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.27745106028872524,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p49_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 49,
+            "text": "We suggest the following insurance companies for their reputation and popularity in Vietnam: PVI B\u1ea3o Vi\u1ec7t Insurance *You will need to submit all relevant medical and payment documents to your insurance company for the refund process.",
+            "metadata": {
+              "section": "health_and_insurance",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.25542277869763297,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p26_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 26,
+            "text": "STUDENT SPACES International support center (ISC): Did you know international students at VinUniversity have their own special hangout spot? The International Support Center (ISC) is right on the 1st floor of Building I. It's the perfect place to chill, make new friends, and connect with other international students from around the globe!",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.16133481521116,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p49_para_0 | vinuni_handbook.pdf | page 49]\nAt VinUniversity, you can freely access the medical clinic and the psychological counseling service for primary care. However, since the Social Insurance program in Vietnam does not cover foreign national, you will need to purchase your own health insurance plan from private companies for other health care services. At VinUni, the medical clinic can support in provide more information and advise on your health insurance plan.\n\n[vinuni-handbook-2024_p49_para_1 | vinuni_handbook.pdf | page 49]\nWe suggest the following insurance companies for their reputation and popularity in Vietnam: PVI B\u1ea3o Vi\u1ec7t Insurance *You will need to submit all relevant medical and payment documents to your insurance company for the refund process.",
+        "context_ids": [
+          "vinuni-handbook-2024_p49_para_0",
+          "vinuni-handbook-2024_p49_para_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1596.54
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the official email address for Student Affairs Management (SAM)?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The official email address for Student Affairs Management (SAM) is connect-sam@vinuni.edu.vn [vinuni-handbook-2024_p51_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p51_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the official email address for Student Affairs Management (SAM)?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p51_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Visa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a \u2018DH\u2019 notation on the top right of the page. 1.",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.2345628851429072,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p52_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 52,
+            "text": "Student Affairs Management (SAM) Email: connect-sam@vinuni.edu.vn Phone: (+84) 24 71 089 779 (Ext: 9088) Office of Registrar Email: registrar@vinuni.edu.vn Phone: (+84) 24 71 089 779 (Ext: 9004) Medical Clinic Email: clinic@vinuni.edu.vn Hotline: (+84) 866 200 019 Mental Health & Wellbeing Email: bewell@vinuni.edu.vn Hotline: (+84) 868 900 016 Dormitory office Email: residentiallife@vinuni.edu.vn Hotline: (+84) 866 100 018 VinUni Security (+84)24 710 897 79 (ext.",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.19628378225445534,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p51_para_3",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 51,
+            "text": "Exceptional cases and travel restrictions Students may not travel away from Hanoi during the visa renewal process, as the Immigration Office will hold their passport. If urgent travel is required, students should contact Student Affairs Management immediately to discuss options. 49",
+            "metadata": {
+              "section": "legal_and_emergency",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.14780331967341767,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p51_para_0 | vinuni_handbook.pdf | page 51]\nVisa Guidelines: STUDY VISA GUIDELINES FOR INTERNATIONAL STUDENTS *This guideline applies to all international students enrolled in full-time programs, who require a study visa (DH code) sponsored by VinUniversity. Any exceptional cases will be managed on a case-by-case basis by the Student Affairs Management Office (SAM). Email: connect-sam@vinuni.edu.vn Phone number: (+84) 02471 089 779 (Ext: 9088). Sample student visa. A valid student visa has a \u2018DH\u2019 notation on the top right of the page. 1.",
+        "context_ids": [
+          "vinuni-handbook-2024_p51_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1422.77
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "What essential documents must students have before traveling regarding visa and admission?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Students must have the following essential documents before traveling regarding visa and admission: Passport & Student Visa Letter, University Admission Letter & Official Documents, Emergency Contacts List, Copies of Important Documents (including passport, visa letter, insurance, academic records, airline ticket), and USD cash for visa-on-arrival fee (approximately) [vinuni-handbook-2024_p8_para_0].",
+    "citations": [
+      "vinuni-handbook-2024_p8_para_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What essential documents must students have before traveling regarding visa and admission?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p8_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 8,
+            "text": "Essential Documents & Finances Passport & Student Visa Letter University Admission Letter & Official Documents Emergency Contacts List (family, embassy, university support numbers) Copies of Important Documents (passport, visa letter, insurance, academic records, airline ticket - both digital and printed) USD cash for visa-on-arrival fee (approx.",
+            "metadata": {
+              "section": "pre_arrival",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.2661624023781457,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p12_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 12,
+            "text": "Prior Arrangements: Admission Confirmation: Ensure that you have received an official Letter of Acceptance from VinUniversity admission office. In case you haven\u2019t received any, contact admission@vinuni.edu.vn. Visa Approval Letter: Before heading to your local airport, make sure to collaborate with the Admissions Office to obtain a visa approval letter from the Vietnamese Immigration Department. This letter is essential for visa processing upon arrival.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.26387015764446065,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p12_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 12,
+            "text": "Welcome to Hanoi, Vietnam! You have just arrived and now you\u2019re on your way to get your student visa and your baggage. Your venture towards VinUniversity starts right after you step out the airport. Unsure of what to do when you arrive? Here is a step-by-step guide on what to do after you land at Noi Bai airport. IMMIGRATION PROCEDURES & AIRPORT PICKUP SERVICE 1.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.15859668996423543,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p8_para_0 | vinuni_handbook.pdf | page 8]\nEssential Documents & Finances Passport & Student Visa Letter University Admission Letter & Official Documents Emergency Contacts List (family, embassy, university support numbers) Copies of Important Documents (passport, visa letter, insurance, academic records, airline ticket - both digital and printed) USD cash for visa-on-arrival fee (approx.",
+        "context_ids": [
+          "vinuni-handbook-2024_p8_para_0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1683.95
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "split": "test",
+    "question": "Which commercial airline provides dedicated student discount flight vouchers for VinUniversity students traveling from Frankfurt to Hanoi?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Kh\u00f4ng \u0111\u1ee7 b\u1eb1ng ch\u1ee9ng \u0111\u1ec3 tr\u1ea3 l\u1eddi.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Which commercial airline provides dedicated student discount flight vouchers for VinUniversity students traveling from Frankfurt to Hanoi?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p31_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "ACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.152944845994723,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p38_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 38,
+            "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students\u2019 rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.13458124108629635,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p15_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 15,
+            "text": "Whether you\u2019re alone or you\u2019re accompanied by your guardian or a fellow student, you can contact the VinUniversity admissions office and they can arrange a pickup service for you. VinUniversity offers a complimentary airport pickup service for newly admitted students arriving at Noi Bai International Airport in Hanoi. This service is designed to ensure a smooth transition for students to the VinUniversity campus. Students should coordinate with the Admissions Office to schedule their pickup.",
+            "metadata": {
+              "section": "arrival_settling_in",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.1235692905750547,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p31_para_0 | vinuni_handbook.pdf | page 31]\nACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+        "context_ids": [
+          "vinuni-handbook-2024_p31_para_0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 908.51
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "split": "test",
+    "question": "What is the exact deadline to submit applications for the VinUniversity semester abroad exchange program at Cornell University for the Fall 2025 semester?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Kh\u00f4ng \u0111\u1ee7 b\u1eb1ng ch\u1ee9ng \u0111\u1ec3 tr\u1ea3 l\u1eddi.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the exact deadline to submit applications for the VinUniversity semester abroad exchange program at Cornell University for the Fall 2025 semester?",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p38_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 38,
+            "text": "STUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students\u2019 rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+            "metadata": {
+              "section": "social_integration",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.1751750314039147,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "Course Retake Policies Students who fail a course may retake it in subsequent semesters. Retaking a course may affect GPA calculations and tuition fees. Overload Credit Approval: Students wishing to enroll in more than the standard credit load per semester must seek approval from the Registrar\u2019s Office. Add/Drop & Withdrawal Deadlines: Add/Drop period typically lasts for the first two weeks of the semester. Withdrawal deadlines vary by course but are usually set in the middle of the semester.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.17059931151594138,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_1",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "Detailed course offerings and descriptions will be available on the student portal. Consult your academic advisor before finalizing your course selections if needed. Course Load & Requirements Undergraduate students are typically required to enroll in a minimum of 12 credits per semester. The maximum credit limit per semester is 20 credits, unless special approval is obtained. Students must ensure they meet the prerequisites for each course before registering.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.1477981488412715,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students\u2019 rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+        "context_ids": [
+          "vinuni-handbook-2024_p38_para_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "VinUniversity semester abroad exchange program application deadlines",
+        "filter": null,
+        "results": [
+          {
+            "id": "vinuni-handbook-2024_p31_para_2",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "Course Retake Policies Students who fail a course may retake it in subsequent semesters. Retaking a course may affect GPA calculations and tuition fees. Overload Credit Approval: Students wishing to enroll in more than the standard credit load per semester must seek approval from the Registrar\u2019s Office. Add/Drop & Withdrawal Deadlines: Add/Drop period typically lasts for the first two weeks of the semester. Withdrawal deadlines vary by course but are usually set in the middle of the semester.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.1949452862925123,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p32_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 32,
+            "text": "VinUniversity follows a semester-based system with clear term start and end dates. Credit Requirements Each program has a specified number of credits required for graduation. Students should review their degree plans with academic advisors to ensure timely completion. Graduation Review Process Students must submit a graduation application and ensure all academic requirements are met. Required documents include: Completed degree audit. Clearance forms from university departments.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.17022049679401965,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "vinuni-handbook-2024_p31_para_0",
+            "source_id": "vinuni-handbook-2024",
+            "source": "vinuni_handbook.pdf",
+            "page": 31,
+            "text": "ACADEMIC & REGISTRAR-RELATED INFORMATION VinUniversity provides students with a seamless and well-structured course registration process to ensure an optimal learning experience. Timeline: Course registration opens before each semester begins. Students must adhere to the published deadlines to secure their preferred courses. How to Register Students must register for courses through the VinUniversity Student Information System (SIS) Portal.",
+            "metadata": {
+              "section": "academic_support",
+              "year": 2024,
+              "language": "en"
+            },
+            "score": 0.1398477718759365,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[vinuni-handbook-2024_p38_para_0 | vinuni_handbook.pdf | page 38]\nSTUDENT-LED ORGANIZATIONS The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange, connecting students from diverse backgrounds and celebrating global diversity beyond fostering connections, VISA advocates for international students\u2019 rights, providing support, resources, and a welcoming environment to help them thrive at Vin University. As you begin your journey at VinUniversity each semester, you will be paired with a dedicated peer advisor.",
+        "context_ids": [
+          "vinuni-handbook-2024_p38_para_0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1796.65
+  }
+]

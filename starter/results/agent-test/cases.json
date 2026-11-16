@@ -1,0 +1,100 @@
+[
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Who is the contact person in charge of Dormitory at VinUniversity?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Le Bao Anh (anh.lb@vinuni.edu.vn)",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 6,
+        "evidence": "Le Bao Anh (anh.lb@vinuni.edu.vn) Dormitory"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What estimated monthly budget is needed for food expenses according to the student expense summary?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Approximately 5,000,000 VND per month",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 28,
+        "evidence": "Food ~ 5.000.000 per month"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Are international students covered by Vietnam's Social Insurance program for healthcare?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "No, Social Insurance does not cover foreign nationals so they must buy private health insurance",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 49,
+        "evidence": "However, since the Social Insurance program in Vietnam does not cover foreign national, you will need to purchase your own health insurance plan"
+      }
+    ],
+    "filter": {
+      "section": "health_and_insurance"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What is the official email address for Student Affairs Management (SAM)?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "connect-sam@vinuni.edu.vn",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 52,
+        "evidence": "Student Affairs Management (SAM) Email: connect-sam@vinuni.edu.vn"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What essential documents must students have before traveling regarding visa and admission?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Passport & Student Visa Letter, University Admission Letter & Official Documents",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 8,
+        "evidence": "Essential Documents & Finances Passport & Student Visa Letter University Admission Letter & Official Documents"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "Which commercial airline provides dedicated student discount flight vouchers for VinUniversity students traveling from Frankfurt to Hanoi?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Handbook mentions airport arrivals, baggage and visas, but does not contain any airline partnership or flight discount vouchers from Frankfurt."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "What is the exact deadline to submit applications for the VinUniversity semester abroad exchange program at Cornell University for the Fall 2025 semester?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Handbook mentions Cornell collaboration and general course registration timelines, but contains no 2025 exchange application deadline for Cornell."
+  }
+]
