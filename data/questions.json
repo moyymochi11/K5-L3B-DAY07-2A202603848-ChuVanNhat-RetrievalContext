@@ -1,0 +1,274 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What is the total area of VinUniversity campus?",
+    "expected_answer": "420 hectares",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 5,
+        "evidence": "The campus is located in Vinhomes Ocean Park in the Gia Lam District, Hanoi, Vietnam, with a total area of 420 hectares."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Who is the contact person for international student administration at VinUniversity?",
+    "expected_answer": "Dao Thuc Hanh (hanh.dt@vinuni.edu.vn)",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 6,
+        "evidence": "Dao Thuc Hanh (hanh.dt@vinuni.edu.vn) Administration International Students"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What months make up Spring season in Hanoi according to the handbook?",
+    "expected_answer": "February to April",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 10,
+        "evidence": "Spring (February - April) This is widely considered the most pleasant season in Hanoi."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How much does the Viettel ST70K data package cost and what does it offer?",
+    "expected_answer": "70,000 VND for 500 MB per day (15 GB per month) with 30 days validity",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 16,
+        "evidence": "Viettel ST70K Package: Data: 500 MB per day (15 GB per month) Price: 70,000 VND Validity: 30 days"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Why does VinUniversity provide on-campus accommodation for all students?",
+    "expected_answer": "As part of its co-living and co-learning philosophy",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 21,
+        "evidence": "VinUniversity provides on-campus accommodation for all students as part of its co-living and co-learning"
+      }
+    ],
+    "filter": {
+      "section": "arrival_settling_in"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What are the two food courts located on the VinUniversity campus?",
+    "expected_answer": "Foodology and The Little Kitchen",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 24,
+        "evidence": "Our campus features two amazing food courts: Foodology The Little Kitchen"
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What is the estimated monthly housing expense for students?",
+    "expected_answer": "Approximately 3,500,000 VND per month",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 28,
+        "evidence": "Housing ~ 3.500.000 per month"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What type of academic system does VinUniversity follow?",
+    "expected_answer": "A semester-based system with clear term start and end dates",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 32,
+        "evidence": "VinUniversity follows a semester-based system with clear term start and end dates."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What is the minimum overall IELTS band score required for English proficiency?",
+    "expected_answer": "Minimum overall band score of 6.5, with no section below 6.0",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 33,
+        "evidence": "Minimum overall band score of 6.5, with no section below 6.0"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What Learning Management System (LMS) is used by VinUniversity students to access course materials?",
+    "expected_answer": "Canvas",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 35,
+        "evidence": "Go to the Canvas website: 2. Enter your VinUniversity credentials:"
+      }
+    ],
+    "filter": {
+      "section": "academic_support"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What is the student-led organization representing international students at VinUniversity?",
+    "expected_answer": "VISA (VinUni International Students Association)",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 38,
+        "evidence": "The VinUni International Students Association (VISA) is a vibrant hub for cultural exchange"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What is the annual sports tournament hosted at VinUni where colleges compete against each other?",
+    "expected_answer": "Green Sports Day",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 42,
+        "evidence": "Green Sports Day is an annual sports competition in VinUni. During this thrilling competition, each college forms its own"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Which instant messaging application is widely used for communication in Vietnam according to the guide?",
+    "expected_answer": "Zalo",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 43,
+        "evidence": "In Vietnam, the go-to messaging app is Zalo, a Vietnamese instant messaging platform"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "How far is Bat Trang Pottery Village from VinUniversity campus?",
+    "expected_answer": "15 minutes",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 46,
+        "evidence": "Bat Trang Pottery Village Distance from VinUniversity: 15 minutes"
+      }
+    ],
+    "filter": {
+      "section": "social_integration"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Who established VinUniversity and what is its non-profit status?",
+    "expected_answer": "Established by Vingroup as a private, not-for-profit university",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 3,
+        "evidence": "VinUniversity is a private, not-for-profit university established by Vingroup – the largest private conglomerate in Vietnam."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Who is the contact person in charge of Dormitory at VinUniversity?",
+    "expected_answer": "Le Bao Anh (anh.lb@vinuni.edu.vn)",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 6,
+        "evidence": "Le Bao Anh (anh.lb@vinuni.edu.vn) Dormitory"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What estimated monthly budget is needed for food expenses according to the student expense summary?",
+    "expected_answer": "Approximately 5,000,000 VND per month",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 28,
+        "evidence": "Food ~ 5.000.000 per month"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Are international students covered by Vietnam's Social Insurance program for healthcare?",
+    "expected_answer": "No, Social Insurance does not cover foreign nationals so they must buy private health insurance",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 49,
+        "evidence": "However, since the Social Insurance program in Vietnam does not cover foreign national, you will need to purchase your own health insurance plan"
+      }
+    ],
+    "filter": {
+      "section": "health_and_insurance"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What is the official email address for Student Affairs Management (SAM)?",
+    "expected_answer": "connect-sam@vinuni.edu.vn",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 52,
+        "evidence": "Student Affairs Management (SAM) Email: connect-sam@vinuni.edu.vn"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What essential documents must students have before traveling regarding visa and admission?",
+    "expected_answer": "Passport & Student Visa Letter, University Admission Letter & Official Documents",
+    "gold": [
+      {
+        "source_id": "vinuni-handbook-2024",
+        "page": 8,
+        "evidence": "Essential Documents & Finances Passport & Student Visa Letter University Admission Letter & Official Documents"
+      }
+    ]
+  }
+]
