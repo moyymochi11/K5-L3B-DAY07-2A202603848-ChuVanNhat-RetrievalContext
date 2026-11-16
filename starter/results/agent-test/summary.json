@@ -1,4 +1,5 @@
 {
+  "split": "test",
   "cases": 7,
   "provider_errors": 0,
   "tool_use": {
@@ -27,7 +28,5 @@
   "false_abstention": {
     "n": 1,
     "N": 5
-  },
-  "total_time_seconds": 15.72,
-  "cost_usd": 0.0044
+  }
 }
